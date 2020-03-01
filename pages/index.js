@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Layout from '../components/layout'
 
 const Index = () => (
@@ -16,14 +15,14 @@ const Index = () => (
 					</h1>
 					<p className="cta-description">Accepted pairs you up with real college students who can guide you through the entire process&mdash;from application to acceptance.</p>
 					<div className="signup-cta">
-						<p className="has-text-gray">Coming soon</p>
+						<a className="button is-rounded is-black is-aubergine" href="//eepurl.com/gUKxm5">Coming soon &mdash; sign up for updates</a>
 					</div>
 				</section>
 			</div>
 		</div>
 
 		<section className="section is-footer">
-			<a href="https://instagram.com/acceptedapp" style={{color: 'inherit'}}>
+			<a href="https://instagram.com/acceptedapp" style={{ color: 'inherit' }}>
 				<div className="socials-ig">
 					<img src="/assets/logo-instagram.svg" className="logo-ig" alt="follow us on instagram" />
 					<small>&emsp;follow us for updates</small>
@@ -70,7 +69,7 @@ const Index = () => (
 				margin-top: 20px;
 				max-width: 80%;
 			}
-			button.is-aubergine {
+			.is-aubergine {
 				background: #3F3D56;
 				font-family: 'Red Hat Display';
 				font-weight: 500;
